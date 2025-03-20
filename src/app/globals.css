@@ -1,0 +1,93 @@
+/* globals.css or your CSS file */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Fullscreen container */
+.leaderboard-container {
+    display: grid;
+    
+    min-height: 100vh;
+    width: 1655px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Expand leaderboard card */
+  .leaderboard-card {
+    margin-bottom: 856PX;
+    width: 45vw; /* Adjust for padding if needed */
+    height: auto;
+    background-color: #1f2937; /* Or whatever your card background is */
+    border-radius: 12px; /* Or whatever your card radius is */
+    padding: 10px; /* Or your card padding */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Or your card shadow */
+  }
+  .leaderboard-title1 {
+    font-size: 3rem;
+    margin-top: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #2074e1;
+    text-align: center; /* Center text horizontally */
+}
+
+
+  
+  /* Your other styles remain the same */
+  .leaderboard-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 16px;
+      color: #dbdee2;
+  }
+  
+  .leaderboard-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1.2rem;
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+      padding: 14px;
+      border: 1px solid #374151;
+      text-align: center;
+  }
+  
+  .leaderboard-table thead {
+      background-color: #111827;
+      color: white;
+  }
+  
+  .leaderboard-table tbody tr:nth-child(odd) {
+      background-color: #1f2937;
+  }
+  
+  .leaderboard-table tbody tr:nth-child(even) {
+      background-color: #374151;
+  }
+  
+  .dashboard-button {
+    width: 458px;
+    height: 56px;
+    place-content: centre;
+      margin-top: 30px;
+      margin-left: 588px;
+      padding: 14px 28px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: black;
+      background: linear-gradient(to right, #3b82f6, #9333ea, #ec4899);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+      background: linear-gradient(to right, #2563eb, #7e22ce, #db2777);
+  }
