@@ -27,7 +27,9 @@ const Leaderboard = () => {
       <Card className="leaderboard-card">
         <CardContent>
           <h2 className="leaderboard-title">Leaderboard</h2>
-          <Table className="leaderboard-table">
+          <div className="leaderboard-table">
+          <Table 
+          >
             <TableHeader>
               <TableRow>
                 <TableHead>Rank</TableHead>
@@ -51,6 +53,7 @@ const Leaderboard = () => {
               ))}
             </TableBody>
           </Table>
+          </div>
         </CardContent>
       </Card>
 
